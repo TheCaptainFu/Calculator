@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="app.js" async charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+      <!--MENU -->
+
+        <div class="menu">
+            <div class="title">
+                Calculator
+            </div>
+        </div>
+
+        <div class="first__section">
+            <div class="calculator">
+                <div class="text__display">
+                <input type="text" class="text" value="0" placeholder="0"  disabled></div>
+                <div class="number__box"> 
+                        <button class="numbers numbers2" id="back"  onclick="clearResult()">Clear</button>
+                        <button class="numbers numbers2" id="back" onclick="backSpace()">Back</button>
+                        <button class="numbers numbers2" onclick="buttonClicked('**')">^</button>
+                        <button class="numbers numbers2" onclick="buttonClicked('/')">/</button>
+                        <button class="numbers" onclick="buttonClicked('7')">7</button>
+                        <button class="numbers" onclick="buttonClicked('8')">8</button>
+                        <button class="numbers" onclick="buttonClicked('9')">9</button>
+                        <button class="numbers numbers2" onclick="buttonClicked('*')">*</button>
+                        <button class="numbers" onclick="buttonClicked('4')">4</button>
+                        <button class="numbers" onclick="buttonClicked('5')">5</button>
+                        <button class="numbers" onclick="buttonClicked('6')">6</button>
+                        <button class="numbers numbers2" onclick="buttonClicked('-')">-</button>
+                        <button class="numbers" onclick="buttonClicked('1')">1</button>
+                        <button class="numbers" onclick="buttonClicked('2')">2</button>
+                        <button class="numbers" onclick="buttonClicked('3')">3</button>
+                        <button class="numbers numbers2" onclick="buttonClicked('+')">+</button>
+                        <button class="numbers" onclick="buttonClicked('3.14')">π</button>
+                        <button class="numbers" onclick="buttonClicked('0')">0</button>
+                        <button class="numbers" onclick="buttonClicked('.')">.</button>
+                        <button class="numbers numbers2" onclick="calculateResult()">=</button>
+                </div>
+            </div>
+        </div>
+    
+
+    <div class="footer">
+        <div class="info">
+            <div class="facebook"></div>
+            <div class="instagram"></div>
+            <div class="gitHub"></div>
+            <div class="me">
+                <div class="phone"></div>
+                <div class="gmail"></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
